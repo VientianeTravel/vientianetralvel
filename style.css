@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman',"Noto Sans Lao", sans-serif;
+}
+
+
+section .header {
+    width: 100%;
+    height: 100px;
+    background: black;
+    display: flex;
+}
+
+section .header .logo {
+    width: 80px;
+    height: 100%;
+    margin-left: 0;
+    padding: 0;
+}
+
+section .header .logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 5px;
+}
+
+section .header .paragrap {
+    width: 30%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+section .header .paragrap p {
+    color: white;
+}
+
+section .header .fb-logo {
+    width: 80px;
+    height: 100%;
+}
+
+section .header .fb-logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px -5px;
+}
+
+section .header .fb-logo img:hover {
+    box-shadow: 0px 0px 2px 2px white;
+}
+
+section .nav-bar {
+    width: 100%;
+    background: #333;
+    height: 80px;
+    display: flex;
+}
+
+section .nav-bar .menu {
+    width: 50%;
+    height: 100%;
+}
+
+section .nav-bar .menu ul {
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+}
+
+section .nav-bar .menu ul li {
+    margin-top: 5px;
+}
+
+section .nav-bar .menu ul li a {
+    padding: 31px;
+    color: white;
+    text-decoration: none;
+}
+
+section .nav-bar .menu ul li a:hover {
+    background: black;
+}
+
+section .nav-bar marquee {
+    width: 50%;
+    font-size: 22px;
+    margin-top: 20px;
+    color: white;
+}
